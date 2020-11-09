@@ -1,0 +1,2 @@
+(()=>{const t=document.querySelector("canvas").getContext("2d");t.translate(250,500);const e=(a,n,o)=>{0<a?(e(a-1,((t,e)=>.836*t+.044*e)(n,o),((t,e)=>-.044*t+.836*e+.169)(n,o)),Math.random()<.3&&e(a-1,((t,e)=>-.141*t+.302*e)(n,o),((t,e)=>.302*t+.141*e+.127)(n,o)),Math.random()<.3&&e(a-1,((t,e)=>.141*t-.302*e)(n,o),((t,e)=>.302*t+.141*e+.169)(n,o)),Math.random()<.3&&e(a-1,0,((t,e)=>.175337*e)(0,o))):((e,a)=>{t.strokeStyle="green",t.strokeRect(500*-e,500*-a,.1,.1)})(n,o)};e(20,0,0)})();
+//# sourceMappingURL=bundle.js.map
